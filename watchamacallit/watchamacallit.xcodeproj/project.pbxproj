@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E7857F72068248100968BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7857F62068248100968BF0 /* AppDelegate.swift */; };
+		7E7857F92068248100968BF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7857F82068248100968BF0 /* ViewController.swift */; };
+		7E7857FC2068248100968BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7857FA2068248100968BF0 /* Main.storyboard */; };
+		7E7857FE2068248100968BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7857FD2068248100968BF0 /* Assets.xcassets */; };
+		7E7858012068248100968BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7857FF2068248100968BF0 /* LaunchScreen.storyboard */; };
+		7E78580C2068248100968BF0 /* watchamacallitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E78580B2068248100968BF0 /* watchamacallitTests.swift */; };
+		7E7858172068248100968BF0 /* watchamacallitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7858162068248100968BF0 /* watchamacallitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7858082068248100968BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7857EB2068248100968BF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7857F22068248100968BF0;
+			remoteInfo = watchamacallit;
+		};
+		7E7858132068248100968BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7857EB2068248100968BF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7857F22068248100968BF0;
+			remoteInfo = watchamacallit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E7857F32068248100968BF0 /* watchamacallit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchamacallit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7857F62068248100968BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E7857F82068248100968BF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E7857FB2068248100968BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E7857FD2068248100968BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E7858002068248100968BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7858022068248100968BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7858072068248100968BF0 /* watchamacallitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchamacallitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E78580B2068248100968BF0 /* watchamacallitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchamacallitTests.swift; sourceTree = "<group>"; };
+		7E78580D2068248100968BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7858122068248100968BF0 /* watchamacallitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchamacallitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7858162068248100968BF0 /* watchamacallitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchamacallitUITests.swift; sourceTree = "<group>"; };
+		7E7858182068248100968BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7857F02068248100968BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7858042068248100968BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E78580F2068248100968BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E7857EA2068248100968BF0 = {
+			isa = PBXGroup;
+			children = (
+				7E7857F52068248100968BF0 /* watchamacallit */,
+				7E78580A2068248100968BF0 /* watchamacallitTests */,
+				7E7858152068248100968BF0 /* watchamacallitUITests */,
+				7E7857F42068248100968BF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7857F42068248100968BF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7857F32068248100968BF0 /* watchamacallit.app */,
+				7E7858072068248100968BF0 /* watchamacallitTests.xctest */,
+				7E7858122068248100968BF0 /* watchamacallitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7857F52068248100968BF0 /* watchamacallit */ = {
+			isa = PBXGroup;
+			children = (
+				7E7857F62068248100968BF0 /* AppDelegate.swift */,
+				7E7857F82068248100968BF0 /* ViewController.swift */,
+				7E7857FA2068248100968BF0 /* Main.storyboard */,
+				7E7857FD2068248100968BF0 /* Assets.xcassets */,
+				7E7857FF2068248100968BF0 /* LaunchScreen.storyboard */,
+				7E7858022068248100968BF0 /* Info.plist */,
+			);
+			path = watchamacallit;
+			sourceTree = "<group>";
+		};
+		7E78580A2068248100968BF0 /* watchamacallitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E78580B2068248100968BF0 /* watchamacallitTests.swift */,
+				7E78580D2068248100968BF0 /* Info.plist */,
+			);
+			path = watchamacallitTests;
+			sourceTree = "<group>";
+		};
+		7E7858152068248100968BF0 /* watchamacallitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7858162068248100968BF0 /* watchamacallitUITests.swift */,
+				7E7858182068248100968BF0 /* Info.plist */,
+			);
+			path = watchamacallitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7857F22068248100968BF0 /* watchamacallit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E78581B2068248100968BF0 /* Build configuration list for PBXNativeTarget "watchamacallit" */;
+			buildPhases = (
+				7E7857EF2068248100968BF0 /* Sources */,
+				7E7857F02068248100968BF0 /* Frameworks */,
+				7E7857F12068248100968BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = watchamacallit;
+			productName = watchamacallit;
+			productReference = 7E7857F32068248100968BF0 /* watchamacallit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7858062068248100968BF0 /* watchamacallitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E78581E2068248100968BF0 /* Build configuration list for PBXNativeTarget "watchamacallitTests" */;
+			buildPhases = (
+				7E7858032068248100968BF0 /* Sources */,
+				7E7858042068248100968BF0 /* Frameworks */,
+				7E7858052068248100968BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7858092068248100968BF0 /* PBXTargetDependency */,
+			);
+			name = watchamacallitTests;
+			productName = watchamacallitTests;
+			productReference = 7E7858072068248100968BF0 /* watchamacallitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E7858112068248100968BF0 /* watchamacallitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7858212068248100968BF0 /* Build configuration list for PBXNativeTarget "watchamacallitUITests" */;
+			buildPhases = (
+				7E78580E2068248100968BF0 /* Sources */,
+				7E78580F2068248100968BF0 /* Frameworks */,
+				7E7858102068248100968BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7858142068248100968BF0 /* PBXTargetDependency */,
+			);
+			name = watchamacallitUITests;
+			productName = watchamacallitUITests;
+			productReference = 7E7858122068248100968BF0 /* watchamacallitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7857EB2068248100968BF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kevin van Zyl";
+				TargetAttributes = {
+					7E7857F22068248100968BF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7E7858062068248100968BF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7857F22068248100968BF0;
+					};
+					7E7858112068248100968BF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7857F22068248100968BF0;
+					};
+				};
+			};
+			buildConfigurationList = 7E7857EE2068248100968BF0 /* Build configuration list for PBXProject "watchamacallit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7857EA2068248100968BF0;
+			productRefGroup = 7E7857F42068248100968BF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7857F22068248100968BF0 /* watchamacallit */,
+				7E7858062068248100968BF0 /* watchamacallitTests */,
+				7E7858112068248100968BF0 /* watchamacallitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7857F12068248100968BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7858012068248100968BF0 /* LaunchScreen.storyboard in Resources */,
+				7E7857FE2068248100968BF0 /* Assets.xcassets in Resources */,
+				7E7857FC2068248100968BF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7858052068248100968BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7858102068248100968BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7857EF2068248100968BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7857F92068248100968BF0 /* ViewController.swift in Sources */,
+				7E7857F72068248100968BF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7858032068248100968BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E78580C2068248100968BF0 /* watchamacallitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E78580E2068248100968BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7858172068248100968BF0 /* watchamacallitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7858092068248100968BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7857F22068248100968BF0 /* watchamacallit */;
+			targetProxy = 7E7858082068248100968BF0 /* PBXContainerItemProxy */;
+		};
+		7E7858142068248100968BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7857F22068248100968BF0 /* watchamacallit */;
+			targetProxy = 7E7858132068248100968BF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7857FA2068248100968BF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7857FB2068248100968BF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E7857FF2068248100968BF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7858002068248100968BF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7858192068248100968BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E78581A2068248100968BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E78581C2068248100968BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = watchamacallit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code.kevinvanzyl.ios.watchamacallit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E78581D2068248100968BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = watchamacallit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code.kevinvanzyl.ios.watchamacallit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E78581F2068248100968BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = watchamacallitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code.kevinvanzyl.ios.watchamacallitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchamacallit.app/watchamacallit";
+			};
+			name = Debug;
+		};
+		7E7858202068248100968BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = watchamacallitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code.kevinvanzyl.ios.watchamacallitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchamacallit.app/watchamacallit";
+			};
+			name = Release;
+		};
+		7E7858222068248100968BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = watchamacallitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code.kevinvanzyl.ios.watchamacallitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = watchamacallit;
+			};
+			name = Debug;
+		};
+		7E7858232068248100968BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = watchamacallitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code.kevinvanzyl.ios.watchamacallitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = watchamacallit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7857EE2068248100968BF0 /* Build configuration list for PBXProject "watchamacallit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7858192068248100968BF0 /* Debug */,
+				7E78581A2068248100968BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E78581B2068248100968BF0 /* Build configuration list for PBXNativeTarget "watchamacallit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E78581C2068248100968BF0 /* Debug */,
+				7E78581D2068248100968BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E78581E2068248100968BF0 /* Build configuration list for PBXNativeTarget "watchamacallitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E78581F2068248100968BF0 /* Debug */,
+				7E7858202068248100968BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7858212068248100968BF0 /* Build configuration list for PBXNativeTarget "watchamacallitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7858222068248100968BF0 /* Debug */,
+				7E7858232068248100968BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7857EB2068248100968BF0 /* Project object */;
+}
